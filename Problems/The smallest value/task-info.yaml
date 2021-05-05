@@ -1,0 +1,24 @@
+type: code
+files:
+- name: src/Main.java
+  visible: true
+  text: |-
+    class Main {
+        public static void main(String[] args) {
+            // put your code here
+        }
+    }
+  learner_created: false
+- name: src/Factorial.java
+  visible: true
+  learner_created: true
+- name: src/org/eu5/learn_pisio/SmallestValue.java
+  visible: true
+  learner_created: true
+feedback_link: https://hyperskill.org/learn/step/2229
+status: Solved
+feedback:
+  message: <html>Correct solution<br/><br/>Continue on <a href="https://hyperskill.org/learn/step/2229">JetBrains
+    Academy</a></html>
+  time: Tue, 04 May 2021 18:54:35 UTC
+record: -1
