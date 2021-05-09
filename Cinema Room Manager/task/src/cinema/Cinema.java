@@ -10,7 +10,7 @@ public class Cinema {
         final int PRICE_FRONT = 10;
         final int PRICE_BACK = 8;
     
-        int price = 0; // change this to int price;
+        int ticketPrice = 0; // change this to int ticketPrice;
         int profit;
         
         Scanner scanner = new Scanner(System.in);
@@ -20,6 +20,13 @@ public class Cinema {
         
         System.out.println("Enter the number of seats in each row:");
         int seats = scanner.nextInt();
+    
+        char[][] seatsArray = new char[rows][seats];
+        for (int i = 0; i < rows; i++) {
+            for (int j = 0; j < seats; j++) {
+                seatsArray[i][j] = 'S';
+            }
+        }
     
         System.out.println();
     
@@ -32,11 +39,11 @@ public class Cinema {
         
         System.out.println();
         
-        for (int i = 1; i <= rows; i++) {
-            System.out.print(i);
-            // use array for seats in the cinema screen room
-            for (int j = 1; j <= seats; j++) {
-                System.out.print(" S");
+        // use array for seats in the cinema screen room
+        for (int i = 0, k = 1; i < rows && k <= rows; i++, k++) {
+            System.out.print(k);
+            for (int j = 0; j < seats; j++) {
+                System.out.print(" " + seatsArray[i][j]);
             }
             System.out.println();
         }
@@ -47,6 +54,9 @@ public class Cinema {
         int rowNumber = scanner.nextInt();
         System.out.println("Enter a seat number in that row:");
         int seatNumber = scanner.nextInt();
+        
+        // change elements inside of array
+        seatsArray[rowNumber - 1][seatNumber - 1] = 'B';
         
         if (rows * seats <= 60) {
             profit = rows * seats * PRICE;
@@ -59,12 +69,26 @@ public class Cinema {
     
         System.out.println();
         
-        System.out.println("Ticket price: " + price);
+        System.out.println("Ticket price: $" + ticketPrice);
     
         System.out.println();
         
         // draw cinema screen room (with marked chosen seat)
         System.out.println("Cinema:");
+        System.out.print(" ");
+        for (int i = 1; i <= seats; i++) {
+            System.out.print(" " + i);
+        }
+    
+        System.out.println();
+        
+        for (int i = 0, k = 1; i < rows && k <= rows; i++, k++) {
+            System.out.print(k);
+            for (int j = 0; j < seats; j++) {
+                System.out.print(" " + seatsArray[i][j]);
+            }
+            System.out.println();
+        }
         
         System.out.println();
         
