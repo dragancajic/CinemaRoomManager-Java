@@ -10,7 +10,7 @@ public class Cinema {
         final int PRICE_FRONT = 10;
         final int PRICE_BACK = 8;
     
-        int ticketPrice = 0; // change this to int ticketPrice;
+        int ticketPrice;
         int profit;
         
         Scanner scanner = new Scanner(System.in);
@@ -55,7 +55,7 @@ public class Cinema {
         System.out.println("Enter a seat number in that row:");
         int seatNumber = scanner.nextInt();
         
-        // change elements inside of array
+        // change element for chosen seat with 'B'
         seatsArray[rowNumber - 1][seatNumber - 1] = 'B';
         
         if (rows * seats <= 60) {
@@ -67,6 +67,15 @@ public class Cinema {
                     (rows / 2 + rows % 2) * seats * PRICE_BACK;
         }
     
+        // calculate the ticket price
+        if (rows * seats <= 60) {
+            ticketPrice = PRICE;
+        } else if (rowNumber <= rows / 2) {
+            ticketPrice = PRICE_FRONT;
+        } else {
+            ticketPrice = PRICE_BACK;
+        }
+        
         System.out.println();
         
         System.out.println("Ticket price: $" + ticketPrice);
