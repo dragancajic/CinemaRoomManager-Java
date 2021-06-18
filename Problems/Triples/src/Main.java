@@ -7,12 +7,21 @@ class Main {
         
         int sizeOfArray = scanner.nextInt();
         int[] arrayOfInts = new int[sizeOfArray];
-        int numberOfTriples; // counter of triples
+        int numberOfTriples = 0; // counter of triples
         
-        for (int i = 0; i < sizeOfArray; i++) {
+        // initialize your array of ints
+        for (int i = 0; i < arrayOfInts.length; i++) {
             arrayOfInts[i] = scanner.nextInt();
-            
-            // some code
         }
+        
+        for (int i = 0; i < arrayOfInts.length - 2; i++) {
+            
+            if (arrayOfInts[i + 1] == arrayOfInts[i] + 1 &&
+                arrayOfInts[i + 2] == arrayOfInts[i + 1] + 1) {
+                numberOfTriples++;
+            }
+        }
+        
+        System.out.println(numberOfTriples);
     }
 }

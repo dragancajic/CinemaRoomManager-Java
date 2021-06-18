@@ -9,13 +9,13 @@ files:
         }
     }
   learner_created: false
-- name: src/Triples.java
+- name: src/Queens.java
   visible: true
   learner_created: true
-feedback_link: https://hyperskill.org/learn/step/2141
+feedback_link: https://hyperskill.org/learn/step/2168
 status: Solved
 feedback:
-  message: <html>Correct solution<br/><br/>Continue on <a href="https://hyperskill.org/learn/step/2141">JetBrains
+  message: <html>Correct solution<br/><br/>Continue on <a href="https://hyperskill.org/learn/step/2168">JetBrains
     Academy</a></html>
-  time: Mon, 10 May 2021 15:46:24 UTC
+  time: Sat, 15 May 2021 12:23:17 UTC
 record: -1
