@@ -5,14 +5,17 @@ class Main {
         // put your code here
         Scanner scanner = new Scanner(System.in);
         
-        int max = 0;
         int number;
+        int max = 0;
+        
         do {
             number = scanner.nextInt();
+            
             if (number > max) {
                 max = number;
             }
         } while (number != 0);
+    
         System.out.println(max);
     }
 }

@@ -6,9 +6,8 @@ class Main {
         int two = 2;
         int three = 3;
         int four = 4;
-    
-        //System.out.println(String.format("%d %d %d %d", one, two, three, four));
-        //System.out.printf("%d %d %d %d%n", one, two, three, four);
-        System.out.printf("%d %d %d %d\n", one, two, three, four);
+
+        // System.out.println(String.format("%d %d %d %d", one, two, three, four));
+        System.out.printf("%d %d %d %d%n", one, two, three, four);
     }
 }

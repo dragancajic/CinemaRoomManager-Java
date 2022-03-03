@@ -7,7 +7,7 @@ files:
     \ change code below   \n    public static void countAreaOfParallelogram(int b,\
     \ int h) {\n        System.out.println(b * h);\n    }\n}"
   learner_created: false
-feedback_link: https://hyperskill.org/learn/step/10981
+feedback_link: https://hyperskill.org/learn/step/10981#comment
 status: Solved
 feedback:
   message: <html>Correct solution<br/><br/>Continue on <a href="https://hyperskill.org/learn/step/10981">JetBrains

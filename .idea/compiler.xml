@@ -1,6 +1,43 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="CompilerConfiguration">
-    <bytecodeTargetLevel target="11" />
+    <bytecodeTargetLevel target="17">
+      <module name="CinemaRoomManager-Java.Cinema_Room_Manager-task-build-classes-java.main" target="11" />
+      <module name="CinemaRoomManager-Java.Cinema_Room_Manager-task-build-generated-sources-annotationProcessor-java.main" target="11" />
+      <module name="CinemaRoomManager-Java.Cinema_Room_Manager-task-build-generated-sources-headers-java.main" target="11" />
+      <module name="CinemaRoomManager-Java.Cinema_Room_Manager-task-build-reports-tests.main" target="11" />
+      <module name="CinemaRoomManager-Java.Cinema_Room_Manager-task-build-test-results.main" target="11" />
+      <module name="CinemaRoomManager-Java.Cinema_Room_Manager-task-build-tmp.main" target="11" />
+      <module name="CinemaRoomManager-Java.Cinema_Room_Manager-task-out.main" target="11" />
+      <module name="CinemaRoomManager-Java.Cinema_Room_Manager-task.main" target="11" />
+      <module name="CinemaRoomManager-Java.Problems-Alphabetical_order.main" target="11" />
+      <module name="CinemaRoomManager-Java.Problems-Area_of_parallelogram.main" target="11" />
+      <module name="CinemaRoomManager-Java.Problems-Assignments.main" target="11" />
+      <module name="CinemaRoomManager-Java.Problems-Assignments__1_.main" target="11" />
+      <module name="CinemaRoomManager-Java.Problems-Bus_tour.main" target="11" />
+      <module name="CinemaRoomManager-Java.Problems-Collatz_conjecture.main" target="11" />
+      <module name="CinemaRoomManager-Java.Problems-Decrement_all.main" target="11" />
+      <module name="CinemaRoomManager-Java.Problems-Digits_from_0_to_9_in_a_single_line.main" target="11" />
+      <module name="CinemaRoomManager-Java.Problems-Fill_the_declaration.main" target="11" />
+      <module name="CinemaRoomManager-Java.Problems-From_0_to_4.main" target="11" />
+      <module name="CinemaRoomManager-Java.Problems-Initializing_an_array_of_characters.main" target="11" />
+      <module name="CinemaRoomManager-Java.Problems-Initializing_an_array_of_integers.main" target="11" />
+      <module name="CinemaRoomManager-Java.Problems-Invalid_declaration_of_variables.main" target="11" />
+      <module name="CinemaRoomManager-Java.Problems-Printing_a_magic_letter.main" target="11" />
+      <module name="CinemaRoomManager-Java.Problems-Printing_strings_in_the_same_order.main" target="11" />
+      <module name="CinemaRoomManager-Java.Problems-Printing_strings_in_the_same_order__1_.main" target="11" />
+      <module name="CinemaRoomManager-Java.Problems-Profit.main" target="11" />
+      <module name="CinemaRoomManager-Java.Problems-Queens.main" target="11" />
+      <module name="CinemaRoomManager-Java.Problems-Squares_of_natural_numbers.main" target="11" />
+      <module name="CinemaRoomManager-Java.Problems-The_largest_element_of_a_sequence.main" target="11" />
+      <module name="CinemaRoomManager-Java.Problems-The_length_of_the_sequence.main" target="11" />
+      <module name="CinemaRoomManager-Java.Problems-The_result_of_a_Tic-Tac-Toe_game.main" target="11" />
+      <module name="CinemaRoomManager-Java.Problems-The_sequence.main" target="11" />
+      <module name="CinemaRoomManager-Java.Problems-The_smallest_value.main" target="11" />
+      <module name="CinemaRoomManager-Java.Problems-The_sum_of_elements.main" target="11" />
+      <module name="CinemaRoomManager-Java.Problems-Triples.main" target="11" />
+      <module name="CinemaRoomManager-Java.Problems-We_need_to_learn_Java.main" target="11" />
+      <module name="CinemaRoomManager-Java.util.main" target="11" />
+    </bytecodeTargetLevel>
   </component>
 </project>

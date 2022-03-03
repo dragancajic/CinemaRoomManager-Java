@@ -1,4 +1,5 @@
 type: code
+custom_name: Printing strings in the same order
 files:
 - name: src/Main.java
   visible: true
@@ -9,6 +10,10 @@ files:
         }
     }
   learner_created: false
-feedback_link: https://hyperskill.org/learn/step/2923
-status: Unchecked
+feedback_link: https://hyperskill.org/learn/step/2923#comment
+status: Solved
+feedback:
+  message: <html>Correct solution<br/><br/>Continue on <a href="https://hyperskill.org/learn/step/2923">JetBrains
+    Academy</a></html>
+  time: Thu, 13 May 2021 22:26:31 UTC
 record: -1

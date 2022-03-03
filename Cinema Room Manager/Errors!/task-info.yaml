@@ -607,9 +607,10 @@ files:
         }
     }
   learner_created: false
-feedback_link: https://hyperskill.org/projects/133/stages/713/implement
+feedback_link: https://hyperskill.org/learn/step/11109#comment
 status: Solved
 feedback:
-  message: Congratulations!
-  time: Fri, 18 Jun 2021 21:34:36 UTC
-record: -1
+  message: Well done! You've finished the project. Select a new project on <a href="https://hyperskill.org/projects">JetBrains
+    Academy</a> to continue learning.
+  time: Mon, 02 Aug 2021 16:18:07 UTC
+record: 5

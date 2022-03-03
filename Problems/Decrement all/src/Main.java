@@ -9,7 +9,6 @@ class Main {
         int number3 = scanner.nextInt();
         int number4 = scanner.nextInt();
     
-        System.out.println("" + --number1 + " " + --number2 +
-                " " + --number3 + " " + --number4);
+        System.out.println(--number1 + " " + --number2 + " " + --number3 + " " + --number4);
     }
 }

@@ -8,7 +8,7 @@ class Main {
         //System.out.print("Input a long positive number m: ");
         long m = scanner.nextLong();
         //System.out.println(findFactorial(14));
-        
+    
         int n = 0;
         do {
             n++;
@@ -22,7 +22,7 @@ class Main {
     public static long findFactorial(int number) {
         long factorial = 1;
         int i = 1;
-    
+        
         while (i <= number) {
             factorial *= i;
             //System.out.println("current factorial " + factorial);
